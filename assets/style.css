@@ -280,7 +280,7 @@ hr.div{
   }
 }
 
-/* ================ HEADER LOGO WRAP ================ */
+/* ----------------------- LOGO FIX ----------------------- */
 
 .brand-wrap{
   display:flex;
@@ -289,12 +289,12 @@ hr.div{
 }
 
 .brand-logo{
-  height:56px;   /* tweak this for logo size */
+  height:56px;
   width:auto;
   max-width:none;
 }
 
-/* ================ VEHICLE DETAIL LAYOUT ================ */
+/* -------------------- VEHICLE PAGE ---------------------- */
 
 .vehicle-detail{
   display:grid;
@@ -309,7 +309,6 @@ hr.div{
   align-items:center;
 }
 
-/* Main vehicle image (Jetta etc.) */
 .vehicle-gallery #main-image{
   width:100%;
   max-width:380px;
@@ -319,7 +318,6 @@ hr.div{
   display:block;
 }
 
-/* Thumbnails */
 .thumb-row{
   display:flex;
   gap:8px;
@@ -340,7 +338,6 @@ hr.div{
   border-color:var(--red2);
 }
 
-/* Right-hand vehicle info */
 .vehicle-info .price{
   font-size:24px;
   font-weight:800;
@@ -363,11 +360,11 @@ hr.div{
   color:#666;
 }
 
-/* Mobile tweaks for vehicle page */
 @media (max-width:800px){
   .vehicle-detail{
     grid-template-columns:1fr;
   }
+
   .vehicle-gallery #main-image{
     max-width:300px;
   }
