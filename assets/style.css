@@ -34,6 +34,36 @@ footer{margin-top:50px;border-top:4px solid var(--red);background:#fff}
 }
 
 .brand-logo {
+  /* Fix oversized vehicle images */
+.vehicle-gallery #main-image {
+  width: 100%;
+  max-width: 450px;   /* LIMITS how wide the main image can be */
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+/* Center the image */
+.vehicle-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Thumbnails */
+.thumb-row img {
+  width: 90px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumb-row img:hover {
+  border-color: #0f766e;
+}
+
   height: 56px;  /* adjust larger/smaller as needed */
   width: auto;
 }
