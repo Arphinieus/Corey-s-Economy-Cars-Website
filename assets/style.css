@@ -37,7 +37,7 @@ footer{margin-top:50px;border-top:4px solid var(--red);background:#fff}
   /* Fix oversized vehicle images */
 .vehicle-gallery #main-image {
   width: 100%;
-  max-width: 450px;   /* LIMITS how wide the main image can be */
+  max-width: 300px;   /* LIMITS how wide the main image can be */
   border-radius: 8px;
   margin-bottom: 0.75rem;
   display: block;
