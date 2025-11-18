@@ -37,3 +37,12 @@ footer{margin-top:50px;border-top:4px solid var(--red);background:#fff}
   height: 56px;  /* adjust larger/smaller as needed */
   width: auto;
 }
+/* VEHICLE IMAGE SIZE FIX */
+.vehicle-gallery #main-image {
+  width: 100%;
+  max-width: 380px;   /* <-- adjust bigger/smaller if needed */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  display: block;
+}
